@@ -1,0 +1,44 @@
+.img-hover-container {
+    position: relative;
+    display: inline-block;
+}
+
+.logo-bootstrap {
+    transition: transform 0.3s;
+}
+
+.img-hover-container:hover .logo-bootstrap {
+    transform: rotate(-5deg);
+}
+
+.hover-box {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 2px solid #333;
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.img-hover-container:hover .hover-box {
+    display: block;
+}
+body {
+    background: #333 !important;
+}
+.images-icon{
+    max-width: 40px;
+    padding-right: 10px;
+}
+video{
+    max-width: 350px;
+}
+.text-purple{
+    color: rgb(153, 18, 153);
+}
