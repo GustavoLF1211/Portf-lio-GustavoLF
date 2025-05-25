@@ -1,2 +1,2 @@
-# Portf-lio-GustavoLF
+# Portfolio-GustavoLF
 Meu portfólio profissional
